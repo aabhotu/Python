@@ -1,4 +1,4 @@
-# erro
+# error
 n = int(input('Nhap so n: '))
 for i in range(1, n):
     a3 = i*i*i
