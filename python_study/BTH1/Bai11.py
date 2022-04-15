@@ -1,13 +1,9 @@
 n = str(input('Nhap chuoi: '))
 chuoi = n.split(',')
 n = ' '.join(chuoi)
-print('1c. ', chuoi)
-print('1n. ', n)
 
 chuoi = n.split('.')
 n = ' '.join(chuoi)
-print('2c. ', chuoi)
-print('2n. ', n)
 
 chuoi = n.split(' ')
 chuoi2 = []
