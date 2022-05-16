@@ -12,13 +12,15 @@ def GiaiPTB1():
     b = int(text2.get())
     if a == 0:
         if b == 0:
+            l3 = Label(win, width=80).place(x=100, y=300)
             lb4 = Label(win, text="Phuong trinh vo so nghiem").place(
                 x=100, y=300)
         else:
-            # lb4.config(text=" ").place(x=100, y=300)
+            l3 = Label(win, width=80).place(x=100, y=300)
             lb4 = Label(win, text="Phuong trinh vo nghiem").place(x=100, y=300)
     else:
         x = -b/a
+        l3 = Label(win, width=80).place(x=100, y=300)
         lb4 = Label(win, text="Pt cos nghiem: " + str(x)).place(x=100, y=300)
     return
 
@@ -30,25 +32,30 @@ def GiaiPTB2():
     if a == 0:
         if b == 0:
             # lb4.config(text=" ").place(x=100, y=300)
+            l3 = Label(win, width=80).place(x=100, y=350)
             lb4 = Label(win, text="Phuong trinh vo nghiem").place(
                 x=100, y=350)
         else:
             # lb4.config(text=" ").place(x=100, y=300)
+            l3 = Label(win, width=80).place(x=100, y=350)
             lb4 = Label(win, text="Phuong trinh co 1 nghiem x = " +
                         str(-c/b)).place(x=100, y=350)
     else:
         # lb4.config(text=" ").place(x=100, y=300)
         delta = (b*b-4*a*c)/2
         if delta < 0:
+            l3 = Label(win, width=80).place(x=100, y=350)
             lb4 = Label(win, text="Phuong trinh vo nghiem").place(
                 x=100, y=350)
         elif delta == 0:
             x = -b/2/a
+            l3 = Label(win, width=80).place(x=100, y=350)
             lb4 = Label(win, text="Phuong trinh co nghiem kep x = " +
                         str(-b/(2*a))).place(x=100, y=350)
         else:
             x1 = round((-b+math.sqrt(delta))/2/a, 3)
             x2 = round((-b-math.sqrt(delta))/2/a, 3)
+            l3 = Label(win, width=80).place(x=100, y=350)
             lb4 = Label(win, text="Phuong trinh co 2 nghiem phan biet x = " +
                         str(x1) + " va " + str(x2)).place(x=100, y=350)
     return

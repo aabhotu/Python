@@ -19,7 +19,7 @@ Tạo 1 class tọa độ có tham số x,y. Thiết kế giao diện cho phép 
     - Tính tích M = 1.2.3…N
     - Tính hiệu H = 1-1/2-1/3-1/4- ..1/ N
     - Thương D = 1/2 * 1/3 *1/4 * … 1/N
-    - Mũ E =1 +22 +32 + .. N2
+    - Mũ E =1 +2^2 +3^2 + .. N^2
 
 ## Câu 5:
 
