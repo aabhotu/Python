@@ -11,7 +11,10 @@ Viết chương trình nhập vào điểm tổng kết của một học sinh v
 
 Viết chương trình nhập vào một số nguyên n, sau đó tính giá trị biểu thức:
 
-![Đe bai 2](\bai2.png)
+![Đe bai 2](bai2.png)
+
+    f = 1 + 1/2 + 1/(2^1) + 1/(2^2) + ... + 1/(2^n) nếu n chẵn
+    f = sqrt(n^2+1) nếu n lẻ
 
 ## Bài 3: Không bắt buộc
 
