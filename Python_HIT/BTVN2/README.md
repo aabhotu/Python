@@ -11,7 +11,7 @@ Viết chương trình nhập vào điểm tổng kết của một học sinh v
 
 Viết chương trình nhập vào một số nguyên n, sau đó tính giá trị biểu thức:
 
-![Đề bài 2] (D:\vscode\python\Python_HIT\BTVN2\bai2.png)
+![Đe bai 2](\bai2.png)
 
 ## Bài 3: Không bắt buộc
 
@@ -55,9 +55,11 @@ Thiết kế một game console cơ bản cho hai người chơi với các yêu
 
 Cho 1 mảng có n số. Nếu tổng số chẵn lớn hơn tổng số lẻ in ra “even”. Nếu tổng số chẵn nhỏ hơn số lẻ in ra “odd”. Nếu bằng nhau in ra “equal “.
 Ví dụ:
-|Đầu vào|Đầu ra|
-|5|odd|
-|1 2 3 4 5||
+
+| Đầu vào   | Đầu ra |
+| --------- | ------ |
+| 5         | odd    |
+| 1 2 3 4 5 |        |
 
 Giải thích: vì 1 +3 +5 > 2+4 nên in ra odd\
 Note: Để nhập 1 mảng các số trên 1 dòng như trên thì ta sẽ sử dụng\
@@ -66,9 +68,10 @@ Với ví dụ trên sẽ trả về [1, 2, 3, 4, 5]
 
 ## Bài 7: Tính tổng các số ở trong một chuỗi đã cho
 
-|Đầu vào|Đầu ra|
-|chitu21anh34kdf-234|-179|
-|334-23-342--43|-74|
+| Đầu vào             | Đầu ra |
+| ------------------- | ------ |
+| chitu21anh34kdf-234 | -179   |
+| 334-23-342--43      | -74    |
 
 Giải thích:\
 Test 1: ta tìm được những số như sau: 21, 34, -234\
